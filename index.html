@@ -14,10 +14,11 @@
     <header>
         <div class="logo">I H</div>
         <nav>
-            <!-- <a href="#">HOME</a> -->
+            <a href="#">HOME</a>
             <a href="#projects">PROJECTS</a>
-            <a href="#skills">SKILLS</a>
+            <a href="about.html#skills">SKILLS</a>
             <a href="#contact">CONTACT</a>
+            <a href="about.html">ABOUT</a>
         </nav>
     </header>
 
@@ -26,9 +27,9 @@
         <section id="home">
             <div>
                 <h1>Ida Hladky</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta libero dolor itaque, saepe enim unde voluptates repellendus perferendis! Odio nisi distinctio magni natus commodi! Animi ipsa fugit porro ducimus totam.</p>
+                <p>I am a full-stack developer with a keen sense for design. With a focus on logistics, aesthetics and functionality, I deliver products that satisfy both clients and users.</p>
                 <div class="button-container">
-                    <button><a href="#">ABOUT ME</a></button>
+                    <button><a href="about.html">ABOUT ME</a></button>
                 </div>
             </div>
             <div>
@@ -36,44 +37,110 @@
             </div>
         </section>
 
-        <hr />
+        <hr id="projects"/>
 
         <!-- projects -->
-        <section id="projects">
+        <section>
+            <!-- project 1 flaneur -->
             <article>
-                <div class="square">
-                    <!-- insert screenshot, include link to site -->
-                    <a href="#"><img /></a>
+                <div>
+                    <!-- include link to site -->
+                    <a href="#"></a><img src="images/flaneur.jpg"/></a>
                 </div>
                 <div class="project-description">
-                    <h2>Feature Project</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolore ut quae iure voluptates, quas nemo facilis tempora repellendus consequatur quam dolor sapiente deleniti, rerum aliquid? Commodi et ea sed.</p>
-                    <ul>
-                        <li>AJAX/API</li>
-                        <li>CSS</li>
-                    </ul>        
+                    <h2>flâneur</h2>
+                    <p>An app designed to give street photographers all localized conditions.</p>
+                    <hr class="thin-hr" />
+                    <div class="lists">
+                        <ul>
+                            <li>Technologies used:</li>
+                            <li>AJAX/API</li>
+                            <li>JavaScript</li>
+                            <li>CSS/HTML</li>
+                        </ul>  
+                        <ul>
+                            <li>Additional tools:</li>
+                            <li>Wireframing</li>
+                            <li>Site design</li>
+                        </ul>
+                    </div>
                 </div>
             </article>
             <div class="button-container">
                 <button><a href="#">Go to Site</a></button>
             </div>
 
-            <hr class="project-hr" />
+            <hr class="thin-hr" />
+            <!-- project 2 FilmLog -->
             <article>
-                <div class="square">
-                    <!-- insert screenshot, include link to site -->
-                    <a href="#"><img /></a>
+                <div>
+                    <!-- include link to site -->
+                    <a href="#"><img src="images/filmLog.jpg"/></a>
                 </div>
                 <div class="project-description">
-                    <h2>Project</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolore ut quae iure voluptates, quas nemo facilis tempora repellendus consequatur quam dolor sapiente deleniti, rerum aliquid? Commodi et ea sed.</p>
+                    <h2>FilmLog</h2>
+                    <p>A record-keeping app for film photographers to keep their film rolls organized. Users are able to post, read, update, and delete entries.</p>
+                    <hr class="thin-hr" />
+                    <div class="lists">
+                        <ul>
+                            <li>Technologies used:</li>
+                            <li>Mongoose/MongoDB</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>JSX</li>
+                            <li>JavaScript</li>
+                            <li>CSS/HTML</li>
+                        </ul>
+                        <ul>
+                            <li>Additional tools:</li>
+                            <li>Wireframing</li>
+                            <li>Site design</li>
+                            <li>API development</li>
+                            <li>Deployment</li>
+                        </ul>
+                    </div>
                 </div>
             </article> 
             <div class="button-container">
                 <button><a href="#">Go to Site</a></button>
             </div>
 
-            <hr class="project-hr" />
+            <hr class="thin-hr" />
+            <!-- project 3 Halloween Picks -->
+            <article>
+                <div>
+                    <a href="https://eloquent-newton-3f7527.netlify.app" target="_blank"><img src="images/halloween_picks.jpg"/></a>
+                </div>
+                <div class="project-description">
+                    <h2>Halloween Picks</h2>
+                    <p>Can't decide how to spend Halloween week in? Let Halloween Picks choose for you! With the push of a button, this app delivers a randomized selection of a movie, a signature drink, and a themed treat for you and your family to enjoy.</p>
+                    <hr class="thin-hr" />
+                    <div class="lists">
+                        <ul>
+                            <li>Technologies used:</li>
+                            <li>Mongoose/MongoDB</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>JavaScript</li>
+                            <li>CSS/HTML</li>
+                        </ul>
+                        <ul>
+                            <li>Additional tools:</li>
+                            <li>Wireframing</li>
+                            <li>Site design</li>
+                            <li>Team collaboration</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <div class="button-container">
+                <button><a href="https://eloquent-newton-3f7527.netlify.app" target="_blank">Go to Site</a></button>
+            </div>
+
+            <hr class="thin-hr" />
+            <!-- unfinished project -->
             <article>
                 <div class="square">
                     <!-- insert screenshot, include link to site -->
@@ -82,21 +149,24 @@
                 <div class="project-description">
                     <h2>Project</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolore ut quae iure voluptates, quas nemo facilis tempora repellendus consequatur quam dolor sapiente deleniti, rerum aliquid? Commodi et ea sed.</p>
-                </div>
-            </article>
-            <div class="button-container">
-                <button><a href="#">Go to Site</a></button>
-            </div>
-
-            <hr class="project-hr" />
-            <article>
-                <div class="square">
-                    <!-- insert screenshot, include link to site -->
-                    <a href="#"><img /></a>
-                </div>
-                <div class="project-description">
-                    <h2>Project</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error dolore ut quae iure voluptates, quas nemo facilis tempora repellendus consequatur quam dolor sapiente deleniti, rerum aliquid? Commodi et ea sed.</p>
+                    <hr class="thin-hr" />
+                    <div class="lists">
+                        <ul>
+                            <li>Technologies used:</li>
+                            <li>Mongoose/MongoDB</li>
+                            <li>Express</li>
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>JavaScript</li>
+                            <li>CSS/HTML</li>
+                        </ul>
+                        <ul>
+                            <li>Additional tools:</li>
+                            <li>Wireframing</li>
+                            <li>Site design</li>
+                            <li>Team collaboration</li>
+                        </ul>
+                    </div>
                 </div>
             </article>
             <div class="button-container">
@@ -104,14 +174,7 @@
             </div>
         </section>
 
-        
-
-        <!-- about -->
-        <section id="skills">
-            <h2>Skills</h2>
-            
-        </section>
-        <hr class="project-hr" />
+        <hr />        
 
         <!-- contact -->
         <section id="contact">
@@ -124,11 +187,11 @@
     <footer>
         <div class="links">
             <div class="individual-links">
-                <a href="#"><img src="images/black-linkedin-icon-557569.png" /></a>
+                <a href="http://www.linkedin.com/in/ida-hladky/" target="_blank"><img src="images/black-linkedin-icon-557569.png" /></a>
                 <p>LinkedIn</p>
             </div>
             <div class="individual-links">
-                <a href="#"><img src="images/GitHub-Mark-120px-plus.png" /></a>
+                <a href="https://github.com/idahladky" target="_blank"><img src="images/GitHub-Mark-120px-plus.png" /></a>
                 <p>GitHub</p>
             </div>
         </div>
