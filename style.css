@@ -70,7 +70,7 @@ img {
 
 #home img, .images img {
     max-height: 400px;
-    max-width: 300px;
+    /* max-width: 300px; */
 }
 
 h1, h2 {
@@ -252,3 +252,31 @@ footer p {
     padding: 2.5vmax;
 }
 
+@media screen and (max-width: 915px) {
+    .images img {
+        height: 35vh;
+    }
+  }
+
+  @media screen and (max-width: 815px) {
+    .images img {
+        height: 25vh;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .images img {
+        height: 40vh;
+    }
+
+    .images {
+        flex-flow: column;
+        align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .images img {
+        height: 25vh;
+    }
+  }
