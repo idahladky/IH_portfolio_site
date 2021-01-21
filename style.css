@@ -73,16 +73,12 @@ img {
     /* max-width: 300px; */
 }
 
-h1, h2 {
+h1, h3, #contact h2 {
     font-family: 'Raleway', sans-serif;
 }
 
 h1 {
     font-size: 3.75vmax;
-}
-
-h2 {
-    font-size: 2.5vmax;
 }
 
 p {
@@ -119,11 +115,21 @@ button a {
     text-transform: uppercase;
 }
 
+#projects h2 {
+    text-transform: uppercase;
+    font-size: 3vmax;
+    padding: 3vmax 0 1vmax;
+    font-family: 'Cinzel', serif;
+    color: rgba(57, 129, 115, .4);
+}
+
 hr {
     border: rgb(57, 129, 115) solid 2px;
-    margin: 6vh;
-    margin-inline-end: inherit;
-    margin-inline-start: inherit;
+    margin: 6vmax 0;
+}
+
+.project-separation {
+    margin: 1vmax 0 6vmax;
 }
 
 article {
@@ -143,6 +149,10 @@ article img {
     border: 1px black solid;
     height: 200px;
     width: 575px;
+}
+
+h3, #contact h2 {
+    font-size: 2.5vmax;
 }
 
 .project-description {
@@ -183,6 +193,7 @@ li {
     font-family: 'Cinzel', serif;
     color: rgba(57, 129, 115, .4);
 }
+
 .sub-list {
     margin-left: 3vmax;
 }
@@ -202,7 +213,7 @@ article button {
 }
 
 article .thin-hr {
-    margin: 1vh 0;
+    margin: 1vmax 0;
 }
 
 #contact p {
