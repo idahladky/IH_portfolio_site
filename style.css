@@ -280,6 +280,14 @@ footer p {
   }
 
   @media screen and (max-width: 815px) {
+    header {
+        height: 25vh;
+    }
+
+    .logo {
+        width: 20vh;
+    }
+
     article img {
         height: 30vh;
     }
@@ -296,6 +304,16 @@ footer p {
   }
 
   @media screen and (max-width: 600px) {
+    header {
+        height: 22vh;
+    }
+
+    .logo {
+        width: 17vh;
+        font-size: 5vmax;
+        height: 95%;
+    }
+
     #home img, .images img {
         height: 40vh;
     }
@@ -342,6 +360,31 @@ footer p {
   }
 
   @media screen and (max-width: 450px) {
+    header {
+        display: flex;
+        padding: 0;
+        height: 20vh;
+    }
+
+    .logo {
+        height: 75%;
+        width: 15vh;
+    }
+
+    nav {
+        display: flex;
+        flex-flow: column;
+        width: 20%;
+        text-align: left;
+    }
+
+    nav a {
+        display: block;
+        padding: .5vmax 2vmax;
+        width: 100%;
+        font-size: 1.5vmax; 
+    }
+
     #home, article {
         flex-flow: column;
         align-items: center;
@@ -362,10 +405,22 @@ footer p {
     .project-description {
         padding: 5vmax 1vmax 1vmax;
     }
+
+    .skills-list li {
+        font-size: 1.25vmax;
+    }
   }
 
   @media screen and (max-width: 300px) {
+    main {
+        padding: .75em .75em .25em .75em;
+    }
+
     article img, .images img {
         height: 25vh;
+    }
+
+    .skills-list li {
+        font-size: 1vmax;
     }
   }
