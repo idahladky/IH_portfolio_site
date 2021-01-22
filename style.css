@@ -275,7 +275,7 @@ footer p {
     }
 
     .images img {
-        height: 35vh;
+        height: 30vh;
     }
   }
 
@@ -302,6 +302,14 @@ footer p {
 
     article img {
         height: 25vh;
+    }
+
+    #about h2, #skills h2 {
+        font-size: 3vmax;
+    }
+
+    .skills-list li {
+        font-size: 1.5vmax;
     }
 
     .images {
